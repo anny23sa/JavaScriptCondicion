@@ -1,13 +1,14 @@
-function cambiodeborde() {
-    
-    let borderOn = "2px";
-    let borderOff = "0px";
-    let imagen = document.getElementById("imagen").style.border.width
+let tieneBorde = false;
 
-    if(imagen == borderOff){
-        imagen = borderOn;
+function cambiodeborde() {
+    let imagen = document.getElementById("imagen")
+    
+    if(tieneBorde == false){
+        imagen.style.border = "2px solid red";
+        tieneBorde = true;
     } else {
-        imagen = borderOff;
+        imagen.style.border = "none";
+        tieneBorde = false;
     }
 }
 
