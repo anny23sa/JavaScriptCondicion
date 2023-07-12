@@ -10,7 +10,7 @@ function verificar(){
             document.getElementById("mensaje").textContent = "Password 1 Correcto";
         break;
         case "714":
-            document.getElementById("mensaje").textContent = "Password 1 Correcto";
+            document.getElementById("mensaje").textContent = "Password 2 Correcto";
         break;
         default:
             document.getElementById("mensaje").textContent = "Pasword Incorrecto"
