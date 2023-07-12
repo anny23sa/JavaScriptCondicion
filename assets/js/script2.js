@@ -7,6 +7,8 @@ function valor(){
     let span = document.querySelector('#resultado')
     span.innerHTML = valorTotal
     
+    if (input1<0 || input2<0 || input3<0 )
+
     if (valorTotal == 0) {
         resultado.innerHTML = "El número ingresado debe ser mayor que 0";
     } else if (valorTotal <= 10) {
@@ -15,4 +17,3 @@ function valor(){
         resultado.innerHTML = "Llevas demasiados stickers!!";
     }
 }
-if (input1<0 || input2<0 || input3<0 ){ revisar
