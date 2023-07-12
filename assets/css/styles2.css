@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+.card{
+    margin: 10px;
+}
+.img{
+    height: 20%;
+    width: 20%;
+    margin: 10px;
+}
+
+.card-title{
+    display: flex;
+    justify-content: center;
+}
+.card-footer{
+    display: flex;
+    justify-content: center;
+}
+.cont-boton{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    border: 2px solid;
+    background-color: rgb(187, 129, 241);
+}
+.frase{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
